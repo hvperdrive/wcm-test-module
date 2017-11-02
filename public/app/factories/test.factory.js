@@ -18,7 +18,7 @@ angular.module("test_0.0.1.factories")
             }, {
                 update: {
                     method: "PUT"
-                }
+                },
                 read: {
                     method: "GET",
                     params: {
