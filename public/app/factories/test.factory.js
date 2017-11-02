@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module("test_1.0.0.factories")
+angular.module("test_0.0.1.factories")
     .factory("testFactory", [
 
         "$resource",

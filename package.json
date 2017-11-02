@@ -1,6 +1,6 @@
 {
     "name": "wcm-test",
-    "version": "1.0.45",
+    "version": "0.0.1",
     "description": "Test module",
     "main": "app",
     "scripts": {
@@ -274,9 +274,6 @@
     "author": "Jeroen Valcke",
     "license": "ISC",
     "dependencies": {
-        "lodash": "~4.17.4",
-        "node-uuid": "~1.4.7",
-        "q": "~1.4.1",
         "rootpath": "~0.1.2"
     },
     "devDependencies": {

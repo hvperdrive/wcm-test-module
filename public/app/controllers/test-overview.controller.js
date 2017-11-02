@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module("test_1.0.45.controllers")
+angular.module("test_0.0.1.controllers")
     .controller("testOverviewController", [
 
         "$scope",

@@ -1,12 +1,12 @@
 "use strict";
 
-angular.module("test_1.0.0")
+angular.module("test_0.0.1")
     .provider("testConfig", [
         function testConfig() {
 
             this.API = {
                 name: "test",
-                version: "1.0.0",
+                version: "0.0.1",
                 basePath: "app/modules/"
             };
 
