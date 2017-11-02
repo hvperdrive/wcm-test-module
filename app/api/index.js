@@ -1,5 +1,5 @@
 var getUser = require("./getUser");
 
 module.exports = {
-    getUser: getUsesr
+    getUser: getUser
 };
