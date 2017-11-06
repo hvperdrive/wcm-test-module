@@ -1,18 +1,18 @@
 "use strict";
 
-angular.module("test_0.0.1.directives", []);
-angular.module("test_0.0.1.factories", []);
-angular.module("test_0.0.1.services", ["test_0.0.1.factories"]);
-angular.module("test_0.0.1.controllers", ["test_0.0.1.services"]);
+angular.module("wcm-test_0.0.1.directives", []);
+angular.module("wcm-test_0.0.1.factories", []);
+angular.module("wcm-test_0.0.1.services", ["wcm-test_0.0.1.factories"]);
+angular.module("wcm-test_0.0.1.controllers", ["wcm-test_0.0.1.services"]);
 
-angular.module("test_0.0.1", [
+angular.module("wcm-test_0.0.1", [
 
     "pelorus.services",
 
-    "test_0.0.1.directives",
-    "test_0.0.1.factories",
-    "test_0.0.1.services",
-    "test_0.0.1.controllers"
+    "wcm-test_0.0.1.directives",
+    "wcm-test_0.0.1.factories",
+    "wcm-test_0.0.1.services",
+    "wcm-test_0.0.1.controllers"
 
 ])
 .run([function() {

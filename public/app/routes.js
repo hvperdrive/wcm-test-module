@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module("test_0.0.1")
+angular.module("wcm-test_0.0.1")
     .config([
 
         "$stateProvider",
