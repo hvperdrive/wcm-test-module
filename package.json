@@ -21,6 +21,7 @@
             "operationType": "test",
             "icon": "user-circle-o",
             "type": "system",
+            "machineName": "test",
             "navigationItem": true,
             "authentication": {
                 "requiresLogin": true
