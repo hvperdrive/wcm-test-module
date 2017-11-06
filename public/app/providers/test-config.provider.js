@@ -5,7 +5,7 @@ angular.module("wcm-test_0.0.1")
         function testConfig() {
 
             this.API = {
-                name: "test",
+                name: "test-module",
                 version: "0-0-1",
                 basePath: "niv_modules/"
             };
