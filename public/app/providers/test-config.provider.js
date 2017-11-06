@@ -6,11 +6,11 @@ angular.module("wcm-test_0.0.1")
 
             this.API = {
                 name: "test",
-                version: "0.0.1",
-                basePath: "app/modules/"
+                version: "0-0-1",
+                basePath: "niv_modules/"
             };
 
-            this.API.modulePath = this.API.basePath + this.API.name + "_" + this.API.version + "/";
+            this.API.modulePath = this.API.basePath + this.API.name + "_" + this.API.version + "/public/app/";
 
             this.$get = function get() {
                 return this.API;
