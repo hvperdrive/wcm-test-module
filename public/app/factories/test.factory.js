@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module("wcm-test_0.0.1.factories")
+angular.module("wcm-test_0.1.0.factories")
     .factory("testFactory", [
 
         "$resource",

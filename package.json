@@ -1,6 +1,6 @@
 {
-    "name": "wcm-test",
-    "version": "0.0.1",
+    "name": "@wcm/test",
+    "version": "0.1.0",
     "description": "Test module",
     "main": "app",
     "scripts": {
@@ -17,6 +17,7 @@
         "angularDirPath": "public/app/",
         "cssDirPath": "public/styles/",
         "moduleConfig": {
+            "angularModule": "wcm-test",
             "translationKey": "Test",
             "operationType": "test",
             "icon": "user-circle-o",

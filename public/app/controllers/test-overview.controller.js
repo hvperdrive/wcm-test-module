@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module("wcm-test_0.0.1.controllers")
+angular.module("wcm-test_0.1.0.controllers")
     .controller("testOverviewController", [
 
         "$scope",

@@ -1,19 +1,25 @@
 "use strict";
 
-angular.module("wcm-test_0.0.1")
-    .provider("testConfig", [
-        function testConfig() {
+angular.module("wcm-test_0.1.0")
+	.provider("testConfig", [
+		"MODULE_ENV_CONFIG",
 
-            this.API = {
-                name: "test-module",
-                version: "0-0-1",
-                basePath: "niv_modules/"
-            };
+		function testConfig(MODULE_ENV_CONFIG) {
 
-            this.API.modulePath = this.API.basePath + this.API.name + "_" + this.API.version + "/public/app/";
+			this.API = {
+				name: MODULE_ENV_CONFIG.angularModule,
+				version: "0.1.0",
+				feDirPath: MODULE_ENV_CONFIG.feDirPath,
+				assetsDirPath: MODULE_ENV_CONFIG.assetsDirPath,
+				cssDirPath: MODULE_ENV_CONFIG.cssDirPath
+			};
 
-            this.$get = function get() {
-                return this.API;
-            };
-        }
-    ]);
+			this.API.modulePath = this.API.feDirPath;
+
+			console.log(this.API);
+
+			this.$get = function get() {
+				return this.API;
+			};
+		}
+	]);
