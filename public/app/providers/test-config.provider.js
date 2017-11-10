@@ -16,8 +16,6 @@ angular.module("wcm-test_0.1.0")
 
 			this.API.modulePath = this.API.feDirPath;
 
-			console.log(this.API);
-
 			this.$get = function get() {
 				return this.API;
 			};

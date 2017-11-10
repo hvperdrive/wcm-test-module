@@ -1,5 +1,5 @@
-module.exports = function() {
-    return {
-        name: "Jim Smith"
-    };
+module.exports = function () {
+	return {
+		name: "Jim Smith"
+	};
 };
